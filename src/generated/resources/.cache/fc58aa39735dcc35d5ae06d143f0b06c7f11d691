@@ -1,0 +1,8 @@
+// 1.20.1	2025-05-17T20:03:21.546873	Tags for minecraft:block mod id forestenigma
+3cf4c23734178747ddaed7a32fe47b87daaf385b data/minecraft/tags/blocks/fence_gates.json
+e04236fd4e03e52a44105659e99adf2120d43143 data/minecraft/tags/blocks/logs_that_burn.json
+5d2039f2b9deb7ed7b3d703d6012bb7a05cc9ea4 data/minecraft/tags/blocks/mineable/axe.json
+43bf0d87ee04eac59d193ec0de35feb94ce90a6d data/minecraft/tags/blocks/mineable/pickaxe.json
+43bf0d87ee04eac59d193ec0de35feb94ce90a6d data/minecraft/tags/blocks/needs_iron_tool.json
+6d3c378af1866fc55118522d3e4208eef12e0326 data/minecraft/tags/blocks/planks.json
+d04c89ab1a6715fc847ec20ace7821ffeaf46c15 data/minecraft/tags/blocks/wooden_fences.json

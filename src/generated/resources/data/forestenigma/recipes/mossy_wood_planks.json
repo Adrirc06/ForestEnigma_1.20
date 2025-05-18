@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "forestenigma:mossy_wood_blocks"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "forestenigma:mossy_wood_planks"
+  }
+}

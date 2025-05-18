@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "forestenigma:block/mossy_wood_log",
+    "side": "forestenigma:block/mossy_wood_log"
+  }
+}

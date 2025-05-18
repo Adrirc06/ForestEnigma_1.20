@@ -4,6 +4,9 @@ import com.mojang.logging.LogUtils;
 //import es.elite.forestenigma.block.ModBlocks;
 //import es.elite.forestenigma.item.ModCreativeModTabs;
 //import es.elite.forestenigma.item.ModItems;
+import es.elite.forestenigma.block.ModBlocks;
+import es.elite.forestenigma.item.ModCreativeModTabs;
+import es.elite.forestenigma.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -31,16 +34,15 @@ public class ForestEnigma
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModItems.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-
-//        ModCreativeModTabs.register(modEventBus);
-//
-//        ModItems.register(modEventBus);
-//        ModBlocks.register(modEventBus);
+        ModCreativeModTabs.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

@@ -1,0 +1,27 @@
+{
+  "item.forestenigma.carita": "Carita",
+  "item.forestenigma.sylvanite": "Silvanita",
+
+  "block.forestenigma.carita_block": "Bloque de carita",
+  "block.forestenigma.mossy_wood_log": "Tronco de madera musgosa",
+  "block.forestenigma.mossy_wood": "Leño de madera musgosa",
+  "block.forestenigma.stripped_mossy_wood_log": "Tronco de madera musgosa sin corteza",
+  "block.forestenigma.stripped_mossy_wood": "Leño de madera musgosa sin corteza",
+  "block.forestenigma.mossy_wood_planks": "Tablones de madera musgosa",
+  "block.forestenigma.mossy_tree_leaves": "Hojas de árbol musgoso",
+  "block.forestenigma.mossy_wood_stairs": "Escaleras de madera musgosa",
+  "block.forestenigma.mossy_wood_slab": "Losa de madera musgosa",
+  "block.forestenigma.mossy_wood_button": "Botón de madera musgosa",
+  "block.forestenigma.mossy_wood_pressure_plate": "Placa de presión de madera musgosa",
+  "block.forestenigma.mossy_wood_fence": "Valla de madera musgosa",
+  "block.forestenigma.mossy_wood_fence_gate": "Puerta de valla de madera musgosa",
+  "block.forestenigma.mossy_wood_door": "Puerta de madera musgosa",
+  "block.forestenigma.mossy_wood_trapdoor": "Trampilla de madera musgosa",
+  "block.forestenigma.sylvanite_ore": "Mena de silvanita",
+  "block.forestenigma.deepslate_sylvanite_ore": "Mena de silvanita de pizarra profunda",
+  "block.forestenigma.sylvanite_block": "Bloque de silvanita",
+
+  "block.forestenigma.mossy_sapling": "Brote musgoso",
+
+  "creativetab.forestenigma.forestenigmatab": "El Enigma del Bosque"
+}

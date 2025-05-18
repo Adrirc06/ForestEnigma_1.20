@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "forestenigma:block/mossy_wood_planks"
+  }
+}

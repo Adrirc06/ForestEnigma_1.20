@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "forestenigma:block/mossy_wood_planks",
+    "side": "forestenigma:block/mossy_wood_planks",
+    "top": "forestenigma:block/mossy_wood_planks"
+  }
+}
