@@ -33,7 +33,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.STRIPPED_MOSSY_WOOD);
 
         leavesBlock(ModBlocks.MOSSY_TREE_LEAVES);
-        //saplingBlock(ModBlocks.MOSSY_SAPLING);
+        saplingBlock(ModBlocks.MOSSY_SAPLING);
+        simpleBlockItem(ModBlocks.POTTED_MOSSY_SAPLING.get(), models().singleTexture("potted_mossy_sapling", new ResourceLocation("flower_pot_cross"), "plant",
+                blockTexture(ModBlocks.MOSSY_SAPLING.get())).renderType("cutout"));
 
         stairsBlock(ModBlocks.MOSSY_WOOD_STAIRS.get(), blockTexture(ModBlocks.MOSSY_WOOD_PLANKS.get()));
         slabBlock(ModBlocks.MOSSY_WOOD_SLAB.get(), blockTexture(ModBlocks.MOSSY_WOOD_PLANKS.get()), blockTexture(ModBlocks.MOSSY_WOOD_PLANKS.get()));

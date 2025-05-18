@@ -37,7 +37,7 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.DEEPSLATE_SYLVANITE_ORE.get());
                         output.accept(ModItems.SYLVANITE.get());
                         output.accept(ModBlocks.SYLVANITE_BLOCK.get());
-                        //output.accept(ModBlocks.MOSSY_SAPLING.get());
+                        output.accept(ModBlocks.MOSSY_SAPLING.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

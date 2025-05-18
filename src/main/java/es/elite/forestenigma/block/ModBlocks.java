@@ -3,6 +3,7 @@ package es.elite.forestenigma.block;
 import es.elite.forestenigma.ForestEnigma;
 import es.elite.forestenigma.block.custom.ForestenigmaFlammableRotatedPillarBlock;
 import es.elite.forestenigma.item.ModItems;
+import es.elite.forestenigma.worldgen.tree.MossyTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.BlockItem;
@@ -77,8 +78,12 @@ public class ModBlocks {
                 }
             });
 
-//    public static final RegistryObject<Block> MOSSY_SAPLING = registerBlock("mossy_sapling",
-//            () -> new SaplingBlock(ModTreeGrowers.MOSSY, BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> MOSSY_SAPLING = registerBlock("mossy_sapling",
+            () -> new SaplingBlock(new MossyTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> POTTED_MOSSY_SAPLING = BLOCKS.register("potted_mossy_sapling",
+            () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.MOSSY_SAPLING,
+                    BlockBehaviour.Properties.copy(Blocks.POTTED_OAK_SAPLING).noOcclusion()));
+
 
 
     public static final RegistryObject<StairBlock> MOSSY_WOOD_STAIRS = registerBlock("mossy_wood_stairs",

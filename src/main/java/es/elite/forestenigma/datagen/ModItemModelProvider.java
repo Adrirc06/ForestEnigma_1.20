@@ -28,7 +28,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         basicItem(ModItems.SYLVANITE.get());
 
-        //saplingItem(ModBlocks.MOSSY_SAPLING);
+        saplingItem(ModBlocks.MOSSY_SAPLING);
     }
 
     private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
@@ -53,5 +53,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.parse("item/generated")).texture("layer0",
                 ResourceLocation.fromNamespaceAndPath(ForestEnigma.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder simpleBlockItemBlocktexture(RegistryObject<? extends Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(ForestEnigma.MOD_ID,"block/" + item.getId().getPath()));
     }
 }
