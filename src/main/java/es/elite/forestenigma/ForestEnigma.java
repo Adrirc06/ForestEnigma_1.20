@@ -7,8 +7,11 @@ import com.mojang.logging.LogUtils;
 import es.elite.forestenigma.block.ModBlocks;
 import es.elite.forestenigma.item.ModCreativeModTabs;
 import es.elite.forestenigma.item.ModItems;
+import es.elite.forestenigma.worldgen.biome.ModTerrablender;
+import es.elite.forestenigma.worldgen.biome.surface.ModSurfaceRules;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
+import net.minecraft.world.level.levelgen.SurfaceRules;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -22,6 +25,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import terrablender.api.SurfaceRuleManager;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(ForestEnigma.MOD_ID)
@@ -51,11 +55,16 @@ public class ForestEnigma
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
+        // Añadir el bioma
+        ModTerrablender.registerBiomes();
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
             ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.MOSSY_SAPLING.getId(), ModBlocks.POTTED_MOSSY_SAPLING);
+
+            SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, MOD_ID, ModSurfaceRules.makeRules());
         });
     }
 

@@ -1,5 +1,8 @@
-// 1.20.1	2025-05-18T12:07:05.3310058	Registries
+// 1.20.1	2025-05-22T22:36:22.003042	Registries
+53f50c542f044f24e6e2e2ed4b8ad4fa612e76d2 data/forestenigma/forge/biome_modifier/add_mossy_tree.json
 8f5ff537dc71da7d3f722e7437ccb5c81248b278 data/forestenigma/forge/biome_modifier/add_sylvanite_ore.json
+283fd877e5e74cd5ab1d63807b1aba9cfd36f2c2 data/forestenigma/worldgen/biome/mossy_biome.json
 2444f1d6ad189d2ac7eb1c1c8351f9c42300b642 data/forestenigma/worldgen/configured_feature/mossy.json
 7238622b838a471ab14a83bf1ee3af68e956b3d4 data/forestenigma/worldgen/configured_feature/sylvanite_ore.json
+25042e174cfa03302afdeaf53d8284f205628fd9 data/forestenigma/worldgen/placed_feature/mossy_tree_placed.json
 044f325455798ac595ae58210c734f152a97e3cc data/forestenigma/worldgen/placed_feature/sylvanite_ore_placed.json
