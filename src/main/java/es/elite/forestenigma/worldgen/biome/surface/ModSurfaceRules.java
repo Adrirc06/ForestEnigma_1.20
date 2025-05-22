@@ -9,6 +9,7 @@ import net.minecraft.world.level.levelgen.SurfaceRules;
 
 public class ModSurfaceRules {
     private static final SurfaceRules.RuleSource DIRT = makeStateRule(Blocks.DIRT);
+    private static final SurfaceRules.RuleSource STONE = makeStateRule(Blocks.STONE);
     private static final SurfaceRules.RuleSource GRASS_BLOCK = makeStateRule(Blocks.GRASS_BLOCK);
     private static final SurfaceRules.RuleSource MOSSY_WOOD_LOG = makeStateRule(ModBlocks.MOSSY_WOOD_LOG.get());
     private static final SurfaceRules.RuleSource MOSSY_WOOD_PLANKS = makeStateRule(ModBlocks.MOSSY_WOOD_PLANKS.get());
@@ -23,8 +24,8 @@ public class ModSurfaceRules {
 
                 //Reglas para cambiar el tipo de los bloques
                 SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.isBiome(ModBiomes.MOSSY_BIOME),
-                                SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR, MOSSY_WOOD_PLANKS)),
-                        SurfaceRules.ifTrue(SurfaceRules.ON_CEILING, MOSSY_WOOD_LOG)),
+                                SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR, GRASS_BLOCK)),
+                        SurfaceRules.ifTrue(SurfaceRules.ON_CEILING, STONE)),
 
 
                 // Default to a grass and dirt surface

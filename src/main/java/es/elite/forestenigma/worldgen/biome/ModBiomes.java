@@ -47,7 +47,8 @@ public class ModBiomes {
         globalOverworldGeneration(biomeBuilder);
         BiomeDefaultFeatures.addMossyStoneBlock(biomeBuilder);
         BiomeDefaultFeatures.addForestFlowers(biomeBuilder);
-        BiomeDefaultFeatures.addFerns(biomeBuilder);
+        //BiomeDefaultFeatures.addFerns(biomeBuilder);
+        BiomeDefaultFeatures.addGiantTaigaVegetation(biomeBuilder);
         BiomeDefaultFeatures.addDefaultOres(biomeBuilder);
         BiomeDefaultFeatures.addExtraGold(biomeBuilder);
 

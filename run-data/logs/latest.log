@@ -1,37 +1,37 @@
-[22may2025 00:00:47.358] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Game\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, forestenigma, --all, --output, D:\Eclipse\DAW\DAW1\DiegoSampedroGarciaExamenT5\examenValidaciones_tema5\ForestEnigma_1.20\src\generated\resources, --existing, D:\Eclipse\DAW\DAW1\DiegoSampedroGarciaExamenT5\examenValidaciones_tema5\ForestEnigma_1.20\src\main\resources]
-[22may2025 00:00:47.373] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[22may2025 00:00:47.499] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[22may2025 00:00:47.580] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Game/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[22may2025 00:00:47.909] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Game\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[22may2025 00:00:47.925] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Game\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[22may2025 00:00:47.925] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Game\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[22may2025 00:00:47.925] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Game\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[22may2025 00:00:48.020] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[22may2025 00:00:49.361] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[22may2025 00:00:49.361] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Game\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, forestenigma, --all, --output, D:\Eclipse\DAW\DAW1\DiegoSampedroGarciaExamenT5\examenValidaciones_tema5\ForestEnigma_1.20\src\generated\resources, --existing, D:\Eclipse\DAW\DAW1\DiegoSampedroGarciaExamenT5\examenValidaciones_tema5\ForestEnigma_1.20\src\main\resources]
-[22may2025 00:00:49.676] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using D:\Eclipse\DAW\DAW1\DiegoSampedroGarciaExamenT5\examenValidaciones_tema5\ForestEnigma_1.20\build\createSrgToMcp\output.srg
-[22may2025 00:00:49.676] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using D:\Eclipse\DAW\DAW1\DiegoSampedroGarciaExamenT5\examenValidaciones_tema5\ForestEnigma_1.20\build\createSrgToMcp\output.srg
-[22may2025 00:00:50.023] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [forestenigma]
-[22may2025 00:00:54.645] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[22may2025 00:00:54.645] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[22may2025 00:00:54.697] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[22may2025 00:00:54.697] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[22may2025 00:00:54.697] [modloading-worker-0/INFO] [terrablender/]: Registered region forestenigma:overworld to index 1 for type OVERWORLD
-[22may2025 00:00:55.061] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Game/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[22may2025 00:00:55.061] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Game/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[22may2025 00:00:55.223] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[22may2025 00:00:55.288] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 55 ms
-[22may2025 00:00:55.288] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[22may2025 00:00:55.350] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 63 ms
-[22may2025 00:00:55.350] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id forestenigma
-[22may2025 00:00:55.414] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id forestenigma finished after 65 ms
-[22may2025 00:00:55.414] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id forestenigma
-[22may2025 00:00:55.414] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id forestenigma finished after 1 ms
-[22may2025 00:00:55.414] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: forestenigma
-[22may2025 00:00:55.430] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: forestenigma finished after 9 ms
-[22may2025 00:00:55.430] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: forestenigma
-[22may2025 00:00:55.571] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: forestenigma finished after 145 ms
-[22may2025 00:00:55.571] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[22may2025 00:00:55.589] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 21 ms
-[22may2025 00:00:55.589] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 365 ms
-[22may2025 00:00:55.603] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 144, old count: 144, new count: 145, removed stale: 0, written: 0
+[22may2025 22:36:14.030] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Game\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, forestenigma, --all, --output, D:\Eclipse\DAW\DAW1\DiegoSampedroGarciaExamenT5\examenValidaciones_tema5\ForestEnigma_1.20\src\generated\resources, --existing, D:\Eclipse\DAW\DAW1\DiegoSampedroGarciaExamenT5\examenValidaciones_tema5\ForestEnigma_1.20\src\main\resources]
+[22may2025 22:36:14.030] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[22may2025 22:36:14.173] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[22may2025 22:36:14.236] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Game/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[22may2025 22:36:14.538] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Game\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[22may2025 22:36:14.538] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Game\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[22may2025 22:36:14.538] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Game\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[22may2025 22:36:14.538] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Game\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[22may2025 22:36:14.633] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22may2025 22:36:15.846] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22may2025 22:36:15.846] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Game\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, forestenigma, --all, --output, D:\Eclipse\DAW\DAW1\DiegoSampedroGarciaExamenT5\examenValidaciones_tema5\ForestEnigma_1.20\src\generated\resources, --existing, D:\Eclipse\DAW\DAW1\DiegoSampedroGarciaExamenT5\examenValidaciones_tema5\ForestEnigma_1.20\src\main\resources]
+[22may2025 22:36:16.180] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using D:\Eclipse\DAW\DAW1\DiegoSampedroGarciaExamenT5\examenValidaciones_tema5\ForestEnigma_1.20\build\createSrgToMcp\output.srg
+[22may2025 22:36:16.180] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using D:\Eclipse\DAW\DAW1\DiegoSampedroGarciaExamenT5\examenValidaciones_tema5\ForestEnigma_1.20\build\createSrgToMcp\output.srg
+[22may2025 22:36:16.529] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [forestenigma]
+[22may2025 22:36:21.078] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[22may2025 22:36:21.078] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[22may2025 22:36:21.128] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[22may2025 22:36:21.128] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[22may2025 22:36:21.128] [modloading-worker-0/INFO] [terrablender/]: Registered region forestenigma:overworld to index 1 for type OVERWORLD
+[22may2025 22:36:21.468] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Game/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[22may2025 22:36:21.468] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Game/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[22may2025 22:36:21.667] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[22may2025 22:36:21.715] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 47 ms
+[22may2025 22:36:21.715] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[22may2025 22:36:21.778] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 67 ms
+[22may2025 22:36:21.778] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id forestenigma
+[22may2025 22:36:21.829] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id forestenigma finished after 35 ms
+[22may2025 22:36:21.829] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id forestenigma
+[22may2025 22:36:21.829] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id forestenigma finished after 1 ms
+[22may2025 22:36:21.829] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: forestenigma
+[22may2025 22:36:21.829] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: forestenigma finished after 8 ms
+[22may2025 22:36:21.829] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: forestenigma
+[22may2025 22:36:21.985] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: forestenigma finished after 144 ms
+[22may2025 22:36:21.985] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[22may2025 22:36:22.003] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 23 ms
+[22may2025 22:36:22.003] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 333 ms
+[22may2025 22:36:22.021] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 146, old count: 146, new count: 147, removed stale: 0, written: 1
