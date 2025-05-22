@@ -7,6 +7,7 @@ import com.mojang.logging.LogUtils;
 import es.elite.forestenigma.block.ModBlocks;
 import es.elite.forestenigma.item.ModCreativeModTabs;
 import es.elite.forestenigma.item.ModItems;
+import es.elite.forestenigma.villages.ModVillagers;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
@@ -48,6 +49,9 @@ public class ForestEnigma
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
+
+        //Registro statico de ModVillager
+        ModVillagers.register(modEventBus);
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);

@@ -20,8 +20,15 @@
   "block.forestenigma.sylvanite_ore": "Mena de silvanita",
   "block.forestenigma.deepslate_sylvanite_ore": "Mena de silvanita de pizarra profunda",
   "block.forestenigma.sylvanite_block": "Bloque de silvanita",
-
   "block.forestenigma.mossy_sapling": "Brote musgoso",
+
+  "villager.forestenigma.kaupenger": "Kaupenger",
+  "entity.minecraft.villager.forestenigma.kauperger": "Kaupenger",
+  "entity.minecraft.villager.forestenigma.kauperger.novice": "Kaupenger Novato",
+  "entity.minecraft.villager.forestenigma.kauperger.apprentice": "Kaupenger Aprendiz",
+  "entity.minecraft.villager.forestenigma.kauperger.journeyman": "Kaupenger Oficial",
+  "entity.minecraft.villager.forestenigma.kauperger.expert": "Kaupenger Experto",
+  "entity.minecraft.villager.forestenigma.kauperger.master": "Kaupenger Maestro",
 
   "creativetab.forestenigma.forestenigmatab": "El Enigma del Bosque"
 }
