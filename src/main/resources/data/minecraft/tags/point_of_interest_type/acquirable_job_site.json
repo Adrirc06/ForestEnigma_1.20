@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "forestenigma:forestenigma_poi",
+      "required": false
+    }
+  ]
+}
