@@ -40,7 +40,7 @@ public class ModOverworldRegion extends Region {
         builder.build().forEach(mapper);
     }*/
 
-    //Segundo metodo, no funciona
+    //Segundo metodo, no funciona (en verdad si, era bromita)
     @Override
     public void addBiomes(Registry<Biome> registry, Consumer<Pair<Climate.ParameterPoint, ResourceKey<Biome>>> mapper) {
         addModifiedVanillaOverworldBiomes(mapper, modifiedVanillaOverworldBuilder -> {
