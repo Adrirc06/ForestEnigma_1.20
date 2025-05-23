@@ -7,7 +7,6 @@ import com.mojang.logging.LogUtils;
 import es.elite.forestenigma.block.ModBlocks;
 import es.elite.forestenigma.item.ModCreativeModTabs;
 import es.elite.forestenigma.item.ModItems;
-import es.elite.forestenigma.villages.ModVillagers;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
@@ -36,9 +35,6 @@ public class ForestEnigma
     public ForestEnigma()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
-        ModVillagers.POI_TYPES.register(modEventBus);
-        ModVillagers.VILLAGER_PROFESSIONS.register(modEventBus);
 
         ModItems.register(modEventBus);
 
