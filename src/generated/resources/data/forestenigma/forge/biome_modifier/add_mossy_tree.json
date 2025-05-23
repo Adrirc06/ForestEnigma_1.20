@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "forestenigma:mossy_biome",
-  "features": "forestenigma:mossy_tree_placed",
-  "step": "vegetal_decoration"
-}
