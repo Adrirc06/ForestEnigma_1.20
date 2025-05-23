@@ -22,13 +22,26 @@
   "block.forestenigma.sylvanite_block": "Bloque de silvanita",
   "block.forestenigma.mossy_sapling": "Brote musgoso",
 
-  "villager.forestenigma.kaupenger": "Kaupenger",
-  "entity.minecraft.villager.forestenigma.kauperger": "Kaupenger",
-  "entity.minecraft.villager.forestenigma.kauperger.novice": "Kaupenger Novato",
-  "entity.minecraft.villager.forestenigma.kauperger.apprentice": "Kaupenger Aprendiz",
-  "entity.minecraft.villager.forestenigma.kauperger.journeyman": "Kaupenger Oficial",
-  "entity.minecraft.villager.forestenigma.kauperger.expert": "Kaupenger Experto",
-  "entity.minecraft.villager.forestenigma.kauperger.master": "Kaupenger Maestro",
+  "entity.minecraft.villager.forestenigma.kaupenger": "Kaupenger",
+  "entity.minecraft.villager.forestenigma.kaupenger.novice": "Kaupenger Novato",
+  "entity.minecraft.villager.forestenigma.kaupenger.apprentice": "Kaupenger Aprendiz",
+  "entity.minecraft.villager.forestenigma.kaupenger.journeyman": "Kaupenger Oficial",
+  "entity.minecraft.villager.forestenigma.kaupenger.expert": "Kaupenger Experto",
+  "entity.minecraft.villager.forestenigma.kaupenger.master": "Kaupenger Maestro",
+
+  "entity.minecraft.villager.forestenigma.hurk": "Hurk",
+  "entity.minecraft.villager.forestenigma.hurk.novice": "Hurk Novato",
+  "entity.minecraft.villager.forestenigma.hurk.apprentice": "Hurk Aprendiz",
+  "entity.minecraft.villager.forestenigma.hurk.journeyman": "Hurk Oficial",
+  "entity.minecraft.villager.forestenigma.hurk.expert": "Hurk Experto",
+  "entity.minecraft.villager.forestenigma.hurk.master": "Hurk Maestro",
+
+  "entity.minecraft.villager.forestenigma.lumi": "Lumi",
+  "entity.minecraft.villager.forestenigma.lumi.novice": "Lumi Novato",
+  "entity.minecraft.villager.forestenigma.lumi.apprentice": "Lumi Aprendiz",
+  "entity.minecraft.villager.forestenigma.lumi.journeyman": "Lumi Oficial",
+  "entity.minecraft.villager.forestenigma.lumi.expert": "Lumi Experto",
+  "entity.minecraft.villager.forestenigma.lumi.master": "Lumi Maestro",
 
   "creativetab.forestenigma.forestenigmatab": "El Enigma del Bosque"
 }

@@ -58,6 +58,74 @@ public class ModEvents {
                     1, 12, 0.05f));
 
         }
+        if (event.getType() == ModVillagers.HURK.get()) {
+            var trades = event.getTrades();
+
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 4),
+                    new ItemStack(Items.COBBLESTONE, 16),
+                    6, 4, 0.05f));
+
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 8),
+                    new ItemStack(Items.IRON_INGOT, 4),
+                    6, 4, 0.05f));
+
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 12),
+                    new ItemStack(Items.DIAMOND, 1),
+                    6, 6, 0.05f));
+
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.GOLD_INGOT, 5),
+                    new ItemStack(Items.EMERALD, 1),
+                    6, 6, 0.05f));
+
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(Items.OBSIDIAN, 4),
+                    6, 8, 0.05f));
+
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.STONE, 32),
+                    new ItemStack(Items.EMERALD, 1),
+                    6, 8, 0.05f));
+        }
+
+        if (event.getType() == ModVillagers.LUMI.get()) {
+            var trades = event.getTrades();
+
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 5),
+                    new ItemStack(Items.LANTERN, 2),
+                    6, 4, 0.05f));
+
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.GLOWSTONE_DUST, 8),
+                    new ItemStack(Items.EMERALD, 1),
+                    6, 4, 0.05f));
+
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 12),
+                    new ItemStack(Items.SEA_LANTERN, 1),
+                    6, 6, 0.05f));
+
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.CAMPFIRE, 1),
+                    new ItemStack(Items.EMERALD, 3),
+                    6, 6, 0.05f));
+
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.BELL, 1),
+                    new ItemStack(Items.EMERALD, 15),
+                    6, 8, 0.05f));
+
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.SHROOMLIGHT, 4),
+                    new ItemStack(Items.EMERALD, 4),
+                    6, 8, 0.05f));
+        }
+
 
 
     }

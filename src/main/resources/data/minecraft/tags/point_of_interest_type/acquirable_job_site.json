@@ -1,9 +1,7 @@
 {
-  "replace": false,
   "values": [
-    {
-      "id": "forestenigma:forestenigma_poi",
-      "required": false
-    }
+    "forestenigma:forestenigma_poi",
+    "forestenigma:anvil_poi",
+    "forestenigma:beacon_poi"
   ]
 }
