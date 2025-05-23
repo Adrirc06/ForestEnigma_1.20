@@ -20,15 +20,8 @@
   "block.forestenigma.sylvanite_ore": "Sylvanite Ore",
   "block.forestenigma.deepslate_sylvanite_ore": "Deepslate Sylvanite Ore",
   "block.forestenigma.sylvanite_block": "Sylvanite Block",
-  "block.forestenigma.mossy_sapling": "Mossy Sapling",
 
-  "villager.forestenigma.kaupenger": "Kaupenger",
-  "entity.minecraft.villager.forestenigma.kauperger": "Kaupenger",
-  "entity.minecraft.villager.forestenigma.kauperger.novice": "Kaupenger Novato",
-  "entity.minecraft.villager.forestenigma.kauperger.apprentice": "Kaupenger Aprendiz",
-  "entity.minecraft.villager.forestenigma.kauperger.journeyman": "Kaupenger Oficial",
-  "entity.minecraft.villager.forestenigma.kauperger.expert": "Kaupenger Experto",
-  "entity.minecraft.villager.forestenigma.kauperger.master": "Kaupenger Maestro",
+  "block.forestenigma.mossy_sapling": "Mossy Sapling",
 
   "creativetab.forestenigma.forestenigmatab": "The Forest Enigma"
 }
