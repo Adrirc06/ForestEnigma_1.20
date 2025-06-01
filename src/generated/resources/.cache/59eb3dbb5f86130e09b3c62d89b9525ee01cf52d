@@ -1,7 +1,8 @@
-// 1.20.1	2025-05-31T23:24:58.4621259	Loot Tables
+// 1.20.1	2025-06-01T18:47:56.1737489	Loot Tables
 148acfbe60630612d08136845b026b5d01d3bd16 data/forestenigma/loot_tables/blocks/ancient_stone.json
 f2a0146e592eb076b5d64a0547d75ef9afb5d492 data/forestenigma/loot_tables/blocks/carita_block.json
 dad63c13612e29c0e05dfcced45c0554bb418562 data/forestenigma/loot_tables/blocks/deepslate_sylvanite_ore.json
+830a3cdf9fc4788bad4b9d0171191cd9d815ae0c data/forestenigma/loot_tables/blocks/holy_eye_block.json
 0e4c1b11d1e3cc46f9c6f8f28bd7fef7756eabf3 data/forestenigma/loot_tables/blocks/mossy_sapling.json
 73d5c5270bc3b9eee4e06e856b671ed7111ab8e9 data/forestenigma/loot_tables/blocks/mossy_tree_leaves.json
 1fe80b46a7a311a23c67f9734d745dd08e607750 data/forestenigma/loot_tables/blocks/mossy_wood.json
@@ -16,6 +17,7 @@ bdca1b5e4f6f8c8bf6ae0994c3b3e0ecfdd89b7b data/forestenigma/loot_tables/blocks/mo
 1e4a6ea9234740089986915b7d1d38e1e437fa86 data/forestenigma/loot_tables/blocks/mossy_wood_stairs.json
 76d0954f628e9e4a7f0ca142fd3f195ae50365f4 data/forestenigma/loot_tables/blocks/mossy_wood_trapdoor.json
 8f265627b4e33c78ca29dfcfe286d0783391d072 data/forestenigma/loot_tables/blocks/potted_mossy_sapling.json
+87fa6fdebf0cee2aff45cf982321135b50052afc data/forestenigma/loot_tables/blocks/rare_mossy_block.json
 fb5674714ac244ca505b9b6c089612ccbbaf13fa data/forestenigma/loot_tables/blocks/stripped_mossy_wood.json
 d444e1173d4337c1207ace2dd38fb0fdb442bf7a data/forestenigma/loot_tables/blocks/stripped_mossy_wood_log.json
 e8b4321e6a12025fc15e447ed9220b2a715f8fce data/forestenigma/loot_tables/blocks/sylvanite_block.json

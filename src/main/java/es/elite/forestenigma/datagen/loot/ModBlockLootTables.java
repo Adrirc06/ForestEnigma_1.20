@@ -9,6 +9,7 @@ import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Set;
@@ -27,6 +28,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         dropSelf(ModBlocks.MOSSY_WOOD.get());
         dropSelf(ModBlocks.STRIPPED_MOSSY_WOOD.get());
         dropSelf(ModBlocks.ANCIENT_STONE.get());
+        dropSelf(ModBlocks.HOLY_EYE_BLOCK.get());
+        dropSelf(ModBlocks.RARE_MOSSY_BLOCK.get());
         dropSelf(ModBlocks.MOSSY_SAPLING.get());
         add(ModBlocks.POTTED_MOSSY_SAPLING.get(), createPotFlowerItemTable(ModBlocks.MOSSY_SAPLING.get()));
 

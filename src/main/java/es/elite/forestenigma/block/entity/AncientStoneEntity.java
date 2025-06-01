@@ -1,6 +1,8 @@
 package es.elite.forestenigma.block.entity;
 
+import es.elite.forestenigma.block.ModBlocks;
 import es.elite.forestenigma.item.ModItems;
+import es.elite.forestenigma.recipe.AncientStoneRecipe;
 import es.elite.forestenigma.screen.AncientStoneMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -12,6 +14,7 @@ import net.minecraft.world.SimpleContainer;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
@@ -24,6 +27,8 @@ import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.Optional;
 
 public class AncientStoneEntity extends BlockEntity implements MenuProvider {
     private final ItemStackHandler itemHandler = new ItemStackHandler(3);
@@ -98,7 +103,9 @@ public class AncientStoneEntity extends BlockEntity implements MenuProvider {
     }
 
     private void craftItem() {
-        ItemStack result = new ItemStack(Items.STONE_SWORD, 1);
+        Optional<AncientStoneRecipe> recipe = getCurrentRecipe();
+        ItemStack result = recipe.get().getResultItem(null);
+
         this.itemHandler.extractItem(FIRST_INPUT_SLOT, 1, false);
         this.itemHandler.extractItem(SECOND_INPUT_SLOT, 1, false);
 
@@ -106,9 +113,31 @@ public class AncientStoneEntity extends BlockEntity implements MenuProvider {
     }
 
     private boolean hasRecipe() {
-        boolean hasEverything = this.itemHandler.getStackInSlot(FIRST_INPUT_SLOT).getItem().equals(ModItems.SYLVANITE.get()) &&
-                this.itemHandler.getStackInSlot(SECOND_INPUT_SLOT).getItem().equals(Items.WOODEN_AXE);
+        Optional<AncientStoneRecipe> recipe = getCurrentRecipe();
 
-        return hasEverything;
+        if (recipe.isEmpty()) {
+            return false;
+        }
+
+        ItemStack result = recipe.get().getResultItem(getLevel().registryAccess());
+
+        return canInsertItemIntoOutput() && canInsertAmountIntoOutputSlot(1);
+    }
+
+    private Optional<AncientStoneRecipe> getCurrentRecipe() {
+        SimpleContainer inventory = new SimpleContainer(this.itemHandler.getSlots());
+        for (int i = 0; i < itemHandler.getSlots(); i++) {
+            inventory.setItem(i, this.itemHandler.getStackInSlot(i));
+        }
+
+        return this.level.getRecipeManager().getRecipeFor(AncientStoneRecipe.Type.INSTANCE, inventory, level);
+    }
+
+    private boolean canInsertItemIntoOutput() {
+        return this.itemHandler.getStackInSlot(OUTPUT_SLOT).isEmpty();
+    }
+
+    private boolean canInsertAmountIntoOutputSlot(int count) {
+        return this.itemHandler.getStackInSlot(OUTPUT_SLOT).getCount() + count <= this.itemHandler.getStackInSlot(OUTPUT_SLOT).getMaxStackSize();
     }
 }

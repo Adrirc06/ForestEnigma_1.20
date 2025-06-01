@@ -30,9 +30,9 @@ public class AncientStoneMenu extends AbstractContainerMenu {
         addPlayerHotbar(inv);
 
         this.blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(iItemHandler -> {
-            this.addSlot(new SlotItemHandler(iItemHandler, 0, 40, 11));
-            this.addSlot(new SlotItemHandler(iItemHandler, 1, 50, 11));
-            this.addSlot(new SlotItemHandler(iItemHandler, 2, 60, 11));
+            this.addSlot(new SlotItemHandler(iItemHandler, 0, 27, 47));
+            this.addSlot(new SlotItemHandler(iItemHandler, 1, 76, 47));
+            this.addSlot(new SlotItemHandler(iItemHandler, 2, 134, 47));
         });
     }
 

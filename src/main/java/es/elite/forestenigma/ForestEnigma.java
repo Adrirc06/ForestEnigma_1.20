@@ -8,6 +8,7 @@ import es.elite.forestenigma.block.ModBlocks;
 import es.elite.forestenigma.block.entity.ModBlockEntities;
 import es.elite.forestenigma.item.ModCreativeModTabs;
 import es.elite.forestenigma.item.ModItems;
+import es.elite.forestenigma.recipe.ModRecipes;
 import es.elite.forestenigma.screen.AncientStoneScreen;
 import es.elite.forestenigma.screen.ModMenuTypes;
 import es.elite.forestenigma.villages.ModVillagers;
@@ -50,7 +51,9 @@ public class ForestEnigma
         MinecraftForge.EVENT_BUS.register(this);
         ModCreativeModTabs.register(modEventBus);
         ModBlocks.register(modEventBus);
+
         ModBlockEntities.register(modEventBus);
+        ModRecipes.register(modEventBus);
 
         //Registro estático de ModVillager
         ModVillagers.register(modEventBus);

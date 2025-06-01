@@ -39,6 +39,8 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.SYLVANITE_BLOCK.get());
                         output.accept(ModBlocks.MOSSY_SAPLING.get());
                         output.accept(ModBlocks.ANCIENT_STONE.get());
+                        output.accept(ModBlocks.HOLY_EYE_BLOCK.get());
+                        output.accept(ModBlocks.RARE_MOSSY_BLOCK.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

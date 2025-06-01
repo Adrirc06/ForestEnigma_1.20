@@ -22,7 +22,9 @@
   "block.forestenigma.sylvanite_block": "Bloque de silvanita",
   "block.forestenigma.mossy_sapling": "Brote musgoso",
 
-  "block.forestenigma.ancient_stone": "Piedra Antigua",
+  "block.forestenigma.ancient_stone": "Ancient stone",
+  "block.forestenigma.rare_mossy_block": "Rare mossy block",
+  "block.forestenigma.holy_eye_block": "Holy eye block",
 
   "entity.minecraft.villager.forestenigma.kaupenger": "Kaupenger",
   "entity.minecraft.villager.forestenigma.kaupenger.novice": "Kaupenger Novato",

@@ -46,6 +46,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> ANCIENT_STONE = registerBlock("ancient_stone",
             () -> new AncientStone(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE).strength(3f)));
 
+    public static final RegistryObject<Block> RARE_MOSSY_BLOCK = registerBlock("rare_mossy_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BAMBOO_PLANKS)));
+
+    public static final RegistryObject<Block> HOLY_EYE_BLOCK = registerBlock("holy_eye_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
+
     public static final RegistryObject<Block> MOSSY_WOOD_PLANKS = registerBlock("mossy_wood_planks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
                 @Override
