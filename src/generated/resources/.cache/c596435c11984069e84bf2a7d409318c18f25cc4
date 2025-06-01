@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-01T20:43:34.5054689	Item Models: forestenigma
+// 1.20.1	2025-06-02T01:01:24.5172957	Item Models: forestenigma
 057900406a9e045022f9410449234a2b2032546c assets/forestenigma/models/item/carita.json
 81c9167b90298000ad6dabd6e2776e93b1c149f8 assets/forestenigma/models/item/mossy_sapling.json
 35a671f2dcc6a2b51ab4092ad9b8bd36f3942f68 assets/forestenigma/models/item/mossy_wood_button.json
@@ -6,7 +6,11 @@
 7b7b61cf029f2d512d8f6bbb79d2a5483ba3d7fc assets/forestenigma/models/item/mossy_wood_fence.json
 42e82ff8cf8eb36589a57c3999acdf2b3adc5e1b assets/forestenigma/models/item/sylvanite.json
 635eeb7b6ed03190227f64f62cd03a587f0cfb54 assets/forestenigma/models/item/sylvanite_axe.json
+f8bf44b804a1b80b80c16ffd47d231ec16b006e3 assets/forestenigma/models/item/sylvanite_boots.json
+7728ae652bde0601888646c10ad5f9d51d75b61e assets/forestenigma/models/item/sylvanite_chestplate.json
+3f9754725539b37b85e5eb9ace492a815a3aa04c assets/forestenigma/models/item/sylvanite_helmet.json
 031e7a480ad403a2c619b001c67770418ab4f2cc assets/forestenigma/models/item/sylvanite_hoe.json
+1d3944d5541c5b97f79b34b405a7c9daa1e82a12 assets/forestenigma/models/item/sylvanite_leggings.json
 a6522e83ddf8635a19b44d0c8615ec0c93d4905e assets/forestenigma/models/item/sylvanite_pickaxe.json
 cb0c1b184102cb2ecf2d21ee3b5e9ba07e8697e0 assets/forestenigma/models/item/sylvanite_shovel.json
 2ae18ed956b1b8a0fc45fa8d9039b1c84871642d assets/forestenigma/models/item/sylvanite_sword.json

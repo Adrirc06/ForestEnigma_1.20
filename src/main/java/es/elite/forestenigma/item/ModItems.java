@@ -32,6 +32,18 @@ public class ModItems {
     public static  final RegistryObject<Item> SYLVANITE_HOE = ITEMS.register("sylvanite_hoe",
             () -> new HoeItem(ModToolTiers.SYLVANITE, 0, 0,  new Item.Properties()));
 
+    public static  final RegistryObject<Item> SYLVANITE_HELMET = ITEMS.register("sylvanite_helmet",
+            () -> new ArmorItem(ModArmorMaterials.SYLVANITE, ArmorItem.Type.HELMET,  new Item.Properties()));
+
+    public static  final RegistryObject<Item> SYLVANITE_CHESTPLATE = ITEMS.register("sylvanite_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.SYLVANITE, ArmorItem.Type.CHESTPLATE,  new Item.Properties()));
+
+    public static  final RegistryObject<Item> SYLVANITE_LEGGINGS = ITEMS.register("sylvanite_leggings",
+            () -> new ArmorItem(ModArmorMaterials.SYLVANITE, ArmorItem.Type.LEGGINGS,  new Item.Properties()));
+
+    public static  final RegistryObject<Item> SYLVANITE_BOOTS = ITEMS.register("sylvanite_boots",
+            () -> new ArmorItem(ModArmorMaterials.SYLVANITE, ArmorItem.Type.BOOTS,  new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
