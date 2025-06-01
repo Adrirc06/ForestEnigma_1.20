@@ -1,6 +1,7 @@
 package es.elite.forestenigma.block;
 
 import es.elite.forestenigma.ForestEnigma;
+import es.elite.forestenigma.block.custom.AncientStone;
 import es.elite.forestenigma.block.custom.ForestenigmaFlammableRotatedPillarBlock;
 import es.elite.forestenigma.item.ModItems;
 import es.elite.forestenigma.worldgen.tree.MossyTreeGrower;
@@ -41,6 +42,9 @@ public class ModBlocks {
 
     public static final RegistryObject<RotatedPillarBlock> STRIPPED_MOSSY_WOOD = registerBlock("stripped_mossy_wood",
             () -> new ForestenigmaFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)));
+
+    public static final RegistryObject<Block> ANCIENT_STONE = registerBlock("ancient_stone",
+            () -> new AncientStone(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE).strength(3f)));
 
     public static final RegistryObject<Block> MOSSY_WOOD_PLANKS = registerBlock("mossy_wood_planks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {

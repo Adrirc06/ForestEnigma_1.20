@@ -26,6 +26,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         dropSelf(ModBlocks.CARITA_BLOCK.get());
         dropSelf(ModBlocks.MOSSY_WOOD.get());
         dropSelf(ModBlocks.STRIPPED_MOSSY_WOOD.get());
+        dropSelf(ModBlocks.ANCIENT_STONE.get());
         dropSelf(ModBlocks.MOSSY_SAPLING.get());
         add(ModBlocks.POTTED_MOSSY_SAPLING.get(), createPotFlowerItemTable(ModBlocks.MOSSY_SAPLING.get()));
 

@@ -1,4 +1,5 @@
-// 1.20.1	2025-05-18T12:28:34.8221344	Block States: forestenigma
+// 1.20.1	2025-05-31T23:24:58.4631275	Block States: forestenigma
+d23530a5abddedb5d96a17f6dcc02c6a09048943 assets/forestenigma/blockstates/ancient_stone.json
 947e799c3ec3816db6e676c8814ee1d040ec31e3 assets/forestenigma/blockstates/carita_block.json
 4d44c85d027e58111a102ab2c6610403365d5fa2 assets/forestenigma/blockstates/deepslate_sylvanite_ore.json
 d40cff2024fffa362a880464676fc0b827dfec11 assets/forestenigma/blockstates/mossy_sapling.json
@@ -18,6 +19,7 @@ bddbd73f1aa56f5c066dad32426611d8cc6766f8 assets/forestenigma/blockstates/mossy_w
 49f8bee7c1968565c51fd363e8afc6d817f7e394 assets/forestenigma/blockstates/stripped_mossy_wood_log.json
 d4d55a7ffc8320782de45b40325caf0a71f5e5be assets/forestenigma/blockstates/sylvanite_block.json
 44d32f01c44f33c79cc34ed319e6b0243e92f0a3 assets/forestenigma/blockstates/sylvanite_ore.json
+462847411bf118f8fb8272dd055c7acf52d04081 assets/forestenigma/models/block/ancient_stone.json
 08d9fa258e8522361ac8a8d36f9db8bd36833b99 assets/forestenigma/models/block/carita_block.json
 ebf1c188e8ab839f043bf44ecba0386d70be57cb assets/forestenigma/models/block/deepslate_sylvanite_ore.json
 b50fb1aab45822df2f4335b015a1d0d5817f2cc9 assets/forestenigma/models/block/mossy_sapling.json
@@ -60,6 +62,7 @@ e4efb377104f5df12e16556c69c1a10416e3e2d0 assets/forestenigma/models/block/stripp
 40cb683687658bcaf71c83f53c94c6fa1605d0d3 assets/forestenigma/models/block/stripped_mossy_wood_log_horizontal.json
 9bb4bf0ca2bae8eb941129d4866f4bf03530c583 assets/forestenigma/models/block/sylvanite_block.json
 34326c56bd9e0cca5e2cc4b2c1020f551beef42d assets/forestenigma/models/block/sylvanite_ore.json
+80697e0ca41a78bbe98f56f8cedc22e22d32a562 assets/forestenigma/models/item/ancient_stone.json
 ef6ae881fd5f44c532be0fdf2980440e271283a8 assets/forestenigma/models/item/carita_block.json
 7145b54802345c4038cf3bdae62a4306e25569cd assets/forestenigma/models/item/deepslate_sylvanite_ore.json
 9861ce221d78964dcdc3b9523828c2cc48a9b483 assets/forestenigma/models/item/mossy_tree_leaves.json
