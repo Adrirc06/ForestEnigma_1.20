@@ -36,6 +36,11 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.SYLVANITE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_SYLVANITE_ORE.get());
                         output.accept(ModItems.SYLVANITE.get());
+                        output.accept(ModItems.SYLVANITE_SWORD.get());
+                        output.accept(ModItems.SYLVANITE_AXE.get());
+                        output.accept(ModItems.SYLVANITE_HOE.get());
+                        output.accept(ModItems.SYLVANITE_PICKAXE.get());
+                        output.accept(ModItems.SYLVANITE_SHOVEL.get());
                         output.accept(ModBlocks.SYLVANITE_BLOCK.get());
                         output.accept(ModBlocks.MOSSY_SAPLING.get());
                         output.accept(ModBlocks.ANCIENT_STONE.get());

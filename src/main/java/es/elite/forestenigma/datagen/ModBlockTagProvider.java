@@ -2,6 +2,7 @@ package es.elite.forestenigma.datagen;
 
 import es.elite.forestenigma.ForestEnigma;
 import es.elite.forestenigma.block.ModBlocks;
+import es.elite.forestenigma.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -50,6 +51,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.STRIPPED_MOSSY_WOOD_LOG.get())
                 .add(ModBlocks.MOSSY_WOOD.get())
                 .add(ModBlocks.STRIPPED_MOSSY_WOOD.get());
+
+        this.tag(ModTags.Blocks.NEEDS_SYLVANITE_TOOL)
+                .add(ModBlocks.HOLY_EYE_BLOCK.get());
 
         tag(BlockTags.PLANKS)
                 .add(ModBlocks.MOSSY_WOOD_PLANKS.get());

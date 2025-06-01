@@ -5,6 +5,7 @@ import es.elite.forestenigma.block.ModBlocks;
 import es.elite.forestenigma.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
@@ -29,6 +30,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.SYLVANITE.get());
 
         saplingItem(ModBlocks.MOSSY_SAPLING);
+
+        handheldItem(ModItems.SYLVANITE_SWORD);
+        handheldItem(ModItems.SYLVANITE_AXE);
+        handheldItem(ModItems.SYLVANITE_PICKAXE);
+        handheldItem(ModItems.SYLVANITE_HOE);
+        handheldItem(ModItems.SYLVANITE_SHOVEL);
     }
 
     private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
@@ -47,6 +54,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/fence_inventory"))
                 .texture("texture",  ResourceLocation.fromNamespaceAndPath(ForestEnigma.MOD_ID,
                         "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(ForestEnigma.MOD_ID, "item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleBlockItem(RegistryObject<? extends Block> item) {
