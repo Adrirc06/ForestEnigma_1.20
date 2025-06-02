@@ -36,12 +36,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.SYLVANITE_BLOCK.get())
                 .add(ModBlocks.SYLVANITE_ORE.get())
-                .add(ModBlocks.DEEPSLATE_SYLVANITE_ORE.get());
+                .add(ModBlocks.DEEPSLATE_SYLVANITE_ORE.get())
+                .add(ModBlocks.ANCIENT_STONE.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.SYLVANITE_BLOCK.get())
                 .add(ModBlocks.SYLVANITE_ORE.get())
-                .add(ModBlocks.DEEPSLATE_SYLVANITE_ORE.get());
+                .add(ModBlocks.DEEPSLATE_SYLVANITE_ORE.get())
+                .add(ModBlocks.ANCIENT_STONE.get());
 
         this.tag(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.MOSSY_WOOD_LOG.get())

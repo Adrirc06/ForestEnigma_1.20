@@ -5,7 +5,6 @@ import com.mojang.logging.LogUtils;
 //import es.elite.forestenigma.item.ModCreativeModTabs;
 //import es.elite.forestenigma.item.ModItems;
 import es.elite.forestenigma.block.ModBlocks;
-import es.elite.forestenigma.entity.ModEntities;
 import es.elite.forestenigma.item.ModCreativeModTabs;
 import es.elite.forestenigma.item.ModItems;
 import es.elite.forestenigma.villages.ModVillagers;
@@ -48,9 +47,8 @@ public class ForestEnigma
         ModCreativeModTabs.register(modEventBus);
         ModBlocks.register(modEventBus);
 
-        //Registro statico de ModVillager y Entities
+        //Registro statico de ModVillager
         ModVillagers.register(modEventBus);
-        ModEntities.ENTITIES.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
