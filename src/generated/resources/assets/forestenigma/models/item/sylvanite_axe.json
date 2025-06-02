@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "forestenigma:item/sylvanite_axe"
+  }
+}

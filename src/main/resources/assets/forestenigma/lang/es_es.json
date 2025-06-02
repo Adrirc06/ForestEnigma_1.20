@@ -1,6 +1,15 @@
 {
   "item.forestenigma.carita": "Carita",
   "item.forestenigma.sylvanite": "Silvanita",
+  "item.forestenigma.sylvanite_sword": "Espada de silvanita",
+  "item.forestenigma.sylvanite_pickaxe": "Pico de silvanita",
+  "item.forestenigma.sylvanite_axe": "Hacha de silvanita",
+  "item.forestenigma.sylvanite_shovel": "Pala de silvanita",
+  "item.forestenigma.sylvanite_hoe": "Azada de silvanita",
+  "item.forestenigma.sylvanite_helmet": "Casco de silvanita",
+  "item.forestenigma.sylvanite_chestplate": "Pechera de silvanita",
+  "item.forestenigma.sylvanite_leggings": "Pantalones de silvanita",
+  "item.forestenigma.sylvanite_boots": "Botas de silvanita",
 
   "block.forestenigma.carita_block": "Bloque de carita",
   "block.forestenigma.mossy_wood_log": "Tronco de madera musgosa",

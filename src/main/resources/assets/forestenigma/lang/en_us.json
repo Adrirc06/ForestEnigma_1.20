@@ -1,6 +1,15 @@
 {
   "item.forestenigma.carita": "Smiley",
   "item.forestenigma.sylvanite": "Sylvanite",
+  "item.forestenigma.sylvanite_sword": "Sylvanite Sword",
+  "item.forestenigma.sylvanite_pickaxe": "Sylvanite Pickaxe",
+  "item.forestenigma.sylvanite_axe": "Sylvanite Axe",
+  "item.forestenigma.sylvanite_shovel": "Sylvanite Shovel",
+  "item.forestenigma.sylvanite_hoe": "Sylvanite Hoe",
+  "item.forestenigma.sylvanite_helmet": "Sylvanite Helmet",
+  "item.forestenigma.sylvanite_chestplate": "Sylvanite Chestplate",
+  "item.forestenigma.sylvanite_leggings": "Sylvanite Leggings",
+  "item.forestenigma.sylvanite_boots": "Sylvanite Boots",
 
   "block.forestenigma.carita_block": "Smiley Block",
   "block.forestenigma.mossy_wood_log": "Mossy Wood Log",

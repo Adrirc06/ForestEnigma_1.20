@@ -2,6 +2,7 @@ package es.elite.forestenigma.datagen;
 
 import es.elite.forestenigma.ForestEnigma;
 import es.elite.forestenigma.block.ModBlocks;
+import es.elite.forestenigma.item.ModItems;
 import es.elite.forestenigma.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;

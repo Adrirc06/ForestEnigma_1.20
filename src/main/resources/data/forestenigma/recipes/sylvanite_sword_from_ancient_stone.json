@@ -5,11 +5,11 @@
       "item": "forestenigma:sylvanite"
     },
     {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:netherite_sword"
     }
   ],
   "output": {
     "count": 1,
-    "item": "minecraft:stone_sword"
+    "item": "forestenigma:sylvanite_sword"
   }
 }
