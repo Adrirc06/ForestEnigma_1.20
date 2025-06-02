@@ -41,12 +41,13 @@ public class AncientStone extends BaseEntityBlock {
             BlockEntity entity = pLevel.getBlockEntity(pPos);
             if (entity instanceof  AncientStoneEntity) {
                 NetworkHooks.openScreen(((ServerPlayer)pPlayer), (AncientStoneEntity)entity, pPos);
+                return InteractionResult.CONSUME;
             } else {
                 throw new IllegalStateException("El Container provider no esta");
             }
         }
 
-        return InteractionResult.sidedSuccess(pLevel.isClientSide());
+        return InteractionResult.SUCCESS;
     }
 
     @Override

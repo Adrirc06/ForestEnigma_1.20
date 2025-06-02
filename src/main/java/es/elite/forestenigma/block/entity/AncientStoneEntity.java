@@ -17,6 +17,7 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
@@ -28,7 +29,10 @@ import net.minecraftforge.items.ItemStackHandler;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.Iterator;
+import java.util.Map;
 import java.util.Optional;
+import java.util.Set;
 
 public class AncientStoneEntity extends BlockEntity implements MenuProvider {
     private final ItemStackHandler itemHandler = new ItemStackHandler(3);
@@ -106,10 +110,18 @@ public class AncientStoneEntity extends BlockEntity implements MenuProvider {
         Optional<AncientStoneRecipe> recipe = getCurrentRecipe();
         ItemStack result = recipe.get().getResultItem(null);
 
+        Map<Enchantment, Integer> encantamientos = this.itemHandler.getStackInSlot(SECOND_INPUT_SLOT).getAllEnchantments();
+
         this.itemHandler.extractItem(FIRST_INPUT_SLOT, 1, false);
         this.itemHandler.extractItem(SECOND_INPUT_SLOT, 1, false);
 
         this.itemHandler.setStackInSlot(OUTPUT_SLOT, new ItemStack(result.getItem()));
+
+        Set<Map.Entry<Enchantment, Integer>> listaEncantamientos = encantamientos.entrySet();
+
+        for (Map.Entry<Enchantment, Integer> e :listaEncantamientos) {
+            this.itemHandler.getStackInSlot(OUTPUT_SLOT).enchant(e.getKey(), e.getValue());
+        }
     }
 
     private boolean hasRecipe() {
