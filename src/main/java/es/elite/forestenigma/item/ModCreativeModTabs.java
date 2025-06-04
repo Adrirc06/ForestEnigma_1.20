@@ -19,6 +19,7 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.MOSSY_WOOD_LOG.get()))
                     .title(Component.translatable("creativetab.forestenigma.forestenigmatab"))
                     .displayItems((itemDisplayParameters, output) -> {
+
                         output.accept(ModBlocks.MOSSY_WOOD_LOG.get());
                         output.accept(ModBlocks.MOSSY_WOOD.get());
                         output.accept(ModBlocks.STRIPPED_MOSSY_WOOD_LOG.get());
@@ -35,9 +36,24 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.MOSSY_WOOD_TRAPDOOR.get());
                         output.accept(ModBlocks.SYLVANITE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_SYLVANITE_ORE.get());
-                        output.accept(ModItems.SYLVANITE.get());
                         output.accept(ModBlocks.SYLVANITE_BLOCK.get());
                         output.accept(ModBlocks.MOSSY_SAPLING.get());
+                        output.accept(ModBlocks.ANCIENT_STONE.get());
+                        output.accept(ModBlocks.HOLY_EYE_BLOCK.get());
+                        output.accept(ModBlocks.RARE_MOSSY_BLOCK.get());
+
+
+                        output.accept(ModItems.SYLVANITE.get());
+                        output.accept(ModItems.CARITA.get());
+                        output.accept(ModItems.SYLVANITE_SWORD.get());
+                        output.accept(ModItems.SYLVANITE_AXE.get());
+                        output.accept(ModItems.SYLVANITE_HOE.get());
+                        output.accept(ModItems.SYLVANITE_PICKAXE.get());
+                        output.accept(ModItems.SYLVANITE_SHOVEL.get());
+                        output.accept(ModItems.SYLVANITE_HELMET.get());
+                        output.accept(ModItems.SYLVANITE_CHESTPLATE.get());
+                        output.accept(ModItems.SYLVANITE_LEGGINGS.get());
+                        output.accept(ModItems.SYLVANITE_BOOTS.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

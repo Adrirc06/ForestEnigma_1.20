@@ -1,6 +1,16 @@
 {
   "item.forestenigma.carita": "Carita",
   "item.forestenigma.sylvanite": "Silvanita",
+  "item.forestenigma.sylvanite_sword": "Espada de silvanita",
+  "item.forestenigma.sylvanite_pickaxe": "Pico de silvanita",
+  "item.forestenigma.sylvanite_axe": "Hacha de silvanita",
+  "item.forestenigma.sylvanite_shovel": "Pala de silvanita",
+  "item.forestenigma.sylvanite_hoe": "Azada de silvanita",
+  "item.forestenigma.sylvanite_helmet": "Casco de silvanita",
+  "item.forestenigma.sylvanite_chestplate": "Pechera de silvanita",
+  "item.forestenigma.sylvanite_leggings": "Pantalones de silvanita",
+  "item.forestenigma.sylvanite_boots": "Botas de silvanita",
+  "item.forestenigma.moss_traveler_spawn_egg": "Generar Moss Traveler",
 
   "block.forestenigma.carita_block": "Bloque de carita",
   "block.forestenigma.mossy_wood_log": "Tronco de madera musgosa",
@@ -20,8 +30,32 @@
   "block.forestenigma.sylvanite_ore": "Mena de silvanita",
   "block.forestenigma.deepslate_sylvanite_ore": "Mena de silvanita de pizarra profunda",
   "block.forestenigma.sylvanite_block": "Bloque de silvanita",
-
   "block.forestenigma.mossy_sapling": "Brote musgoso",
+
+  "block.forestenigma.ancient_stone": "Piedra Antigua",
+  "block.forestenigma.rare_mossy_block": "Bloque musgoso raro",
+  "block.forestenigma.holy_eye_block": "Ojo sagrado",
+
+  "entity.minecraft.villager.forestenigma.kaupenger": "Sylvanero",
+  "entity.minecraft.villager.forestenigma.kaupenger.novice": "Sylvanero Novato",
+  "entity.minecraft.villager.forestenigma.kaupenger.apprentice": "Sylvanero Aprendiz",
+  "entity.minecraft.villager.forestenigma.kaupenger.journeyman": "Sylvanero Oficial",
+  "entity.minecraft.villager.forestenigma.kaupenger.expert": "Sylvanero Experto",
+  "entity.minecraft.villager.forestenigma.kaupenger.master": "Sylvanero Maestro",
+
+  "entity.minecraft.villager.forestenigma.hurk": "Artesano",
+  "entity.minecraft.villager.forestenigma.hurk.novice": "Artesano Novato",
+  "entity.minecraft.villager.forestenigma.hurk.apprentice": "Artesano Aprendiz",
+  "entity.minecraft.villager.forestenigma.hurk.journeyman": "Artesano Oficial",
+  "entity.minecraft.villager.forestenigma.hurk.expert": "Artesano Experto",
+  "entity.minecraft.villager.forestenigma.hurk.master": "Artesano Maestro",
+
+  "entity.minecraft.villager.forestenigma.lumi": "Candilero",
+  "entity.minecraft.villager.forestenigma.lumi.novice": "Candilero Novato",
+  "entity.minecraft.villager.forestenigma.lumi.apprentice": "Candilero Aprendiz",
+  "entity.minecraft.villager.forestenigma.lumi.journeyman": "Candilero Oficial",
+  "entity.minecraft.villager.forestenigma.lumi.expert": "Candilero Experto",
+  "entity.minecraft.villager.forestenigma.lumi.master": "Candilero Maestro",
 
   "creativetab.forestenigma.forestenigmatab": "El Enigma del Bosque"
 }

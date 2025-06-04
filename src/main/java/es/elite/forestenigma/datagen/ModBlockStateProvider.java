@@ -22,6 +22,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.CARITA_BLOCK);
         blockWithItem(ModBlocks.MOSSY_WOOD_PLANKS);
 
+        blockWithItem(ModBlocks.HOLY_EYE_BLOCK);
+        blockWithItem(ModBlocks.RARE_MOSSY_BLOCK);
+        blockWithItem(ModBlocks.ANCIENT_STONE);
+
         logBlock(ModBlocks.MOSSY_WOOD_LOG.get());
         axisBlock(ModBlocks.MOSSY_WOOD.get(), blockTexture(ModBlocks.MOSSY_WOOD_LOG.get()), blockTexture(ModBlocks.MOSSY_WOOD_LOG.get()));
         logBlock(ModBlocks.STRIPPED_MOSSY_WOOD_LOG.get());

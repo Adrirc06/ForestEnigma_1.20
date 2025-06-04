@@ -2,6 +2,7 @@ package es.elite.forestenigma.datagen;
 
 import es.elite.forestenigma.ForestEnigma;
 import es.elite.forestenigma.block.ModBlocks;
+import es.elite.forestenigma.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -36,18 +37,23 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.SYLVANITE_BLOCK.get())
                 .add(ModBlocks.SYLVANITE_ORE.get())
-                .add(ModBlocks.DEEPSLATE_SYLVANITE_ORE.get());
+                .add(ModBlocks.DEEPSLATE_SYLVANITE_ORE.get())
+                .add(ModBlocks.ANCIENT_STONE.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.SYLVANITE_BLOCK.get())
                 .add(ModBlocks.SYLVANITE_ORE.get())
-                .add(ModBlocks.DEEPSLATE_SYLVANITE_ORE.get());
+                .add(ModBlocks.DEEPSLATE_SYLVANITE_ORE.get())
+                .add(ModBlocks.ANCIENT_STONE.get());
 
         this.tag(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.MOSSY_WOOD_LOG.get())
                 .add(ModBlocks.STRIPPED_MOSSY_WOOD_LOG.get())
                 .add(ModBlocks.MOSSY_WOOD.get())
                 .add(ModBlocks.STRIPPED_MOSSY_WOOD.get());
+
+        this.tag(ModTags.Blocks.NEEDS_SYLVANITE_TOOL)
+                .add(ModBlocks.HOLY_EYE_BLOCK.get());
 
         tag(BlockTags.PLANKS)
                 .add(ModBlocks.MOSSY_WOOD_PLANKS.get());

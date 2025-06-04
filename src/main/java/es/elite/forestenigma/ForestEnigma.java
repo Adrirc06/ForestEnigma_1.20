@@ -1,10 +1,9 @@
 package es.elite.forestenigma;
 
 import com.mojang.logging.LogUtils;
-//import es.elite.forestenigma.block.ModBlocks;
-//import es.elite.forestenigma.item.ModCreativeModTabs;
-//import es.elite.forestenigma.item.ModItems;
+
 import es.elite.forestenigma.block.ModBlocks;
+import es.elite.forestenigma.block.entity.ModBlockEntities;
 import es.elite.forestenigma.item.ModCreativeModTabs;
 import es.elite.forestenigma.item.ModItems;
 import es.elite.forestenigma.worldgen.biome.ModTerrablender;
@@ -26,6 +25,11 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 import terrablender.api.SurfaceRuleManager;
+import es.elite.forestenigma.recipe.ModRecipes;
+import es.elite.forestenigma.screen.AncientStoneScreen;
+import es.elite.forestenigma.screen.ModMenuTypes;
+import es.elite.forestenigma.villages.ModVillagers;
+import net.minecraft.client.gui.screens.MenuScreens;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(ForestEnigma.MOD_ID)
@@ -49,6 +53,16 @@ public class ForestEnigma
         MinecraftForge.EVENT_BUS.register(this);
         ModCreativeModTabs.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModBlockEntities.register(modEventBus);
+        ModRecipes.register(modEventBus);
+
+
+        //Registro estático de ModVillager
+        ModVillagers.register(modEventBus);
+
+
+        ModMenuTypes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -86,11 +100,12 @@ public class ForestEnigma
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents
+
     {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
+            MenuScreens.register(ModMenuTypes.ANCIENT_STONE_MENU.get(), AncientStoneScreen::new);
         }
     }
 }

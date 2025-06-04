@@ -1,0 +1,15 @@
+{
+  "type": "forestenigma:ancient_stone",
+  "ingredients": [
+    {
+      "item": "forestenigma:sylvanite"
+    },
+    {
+      "item": "minecraft:netherite_sword"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "forestenigma:sylvanite_sword"
+  }
+}
