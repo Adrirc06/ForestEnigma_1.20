@@ -2,6 +2,7 @@ package es.elite.forestenigma.item;
 
 import es.elite.forestenigma.ForestEnigma;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -43,6 +44,7 @@ public class ModItems {
 
     public static  final RegistryObject<Item> SYLVANITE_BOOTS = ITEMS.register("sylvanite_boots",
             () -> new ArmorItem(ModArmorMaterials.SYLVANITE, ArmorItem.Type.BOOTS,  new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
