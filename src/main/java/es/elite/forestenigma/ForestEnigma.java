@@ -7,8 +7,10 @@ import es.elite.forestenigma.block.entity.ModBlockEntities;
 import es.elite.forestenigma.item.ModCreativeModTabs;
 import es.elite.forestenigma.item.ModItems;
 import es.elite.forestenigma.recipe.ModRecipes;
+import es.elite.forestenigma.screen.AncientStoneScreen;
 import es.elite.forestenigma.screen.ModMenuTypes;
 import es.elite.forestenigma.villages.ModVillagers;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
@@ -93,8 +95,9 @@ public class ForestEnigma
 
     {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {
-
+        public static void onClientSetup(FMLClientSetupEvent event)
+        {
+            MenuScreens.register(ModMenuTypes.ANCIENT_STONE_MENU.get(), AncientStoneScreen::new);
         }
     }
 }
