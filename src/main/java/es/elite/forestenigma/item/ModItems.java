@@ -1,6 +1,7 @@
 package es.elite.forestenigma.item;
 
 import es.elite.forestenigma.ForestEnigma;
+import es.elite.forestenigma.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -34,16 +35,16 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.SYLVANITE, 0, 0,  new Item.Properties()));
 
     public static  final RegistryObject<Item> SYLVANITE_HELMET = ITEMS.register("sylvanite_helmet",
-            () -> new ArmorItem(ModArmorMaterials.SYLVANITE, ArmorItem.Type.HELMET,  new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.SYLVANITE, ArmorItem.Type.HELMET,  new Item.Properties()));
 
     public static  final RegistryObject<Item> SYLVANITE_CHESTPLATE = ITEMS.register("sylvanite_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.SYLVANITE, ArmorItem.Type.CHESTPLATE,  new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.SYLVANITE, ArmorItem.Type.CHESTPLATE,  new Item.Properties()));
 
     public static  final RegistryObject<Item> SYLVANITE_LEGGINGS = ITEMS.register("sylvanite_leggings",
-            () -> new ArmorItem(ModArmorMaterials.SYLVANITE, ArmorItem.Type.LEGGINGS,  new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.SYLVANITE, ArmorItem.Type.LEGGINGS,  new Item.Properties()));
 
     public static  final RegistryObject<Item> SYLVANITE_BOOTS = ITEMS.register("sylvanite_boots",
-            () -> new ArmorItem(ModArmorMaterials.SYLVANITE, ArmorItem.Type.BOOTS,  new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.SYLVANITE, ArmorItem.Type.BOOTS,  new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {
