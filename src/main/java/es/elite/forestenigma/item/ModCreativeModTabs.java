@@ -44,7 +44,6 @@ public class ModCreativeModTabs {
 
 
                         output.accept(ModItems.SYLVANITE.get());
-                        output.accept(ModItems.CARITA.get());
                         output.accept(ModItems.SYLVANITE_SWORD.get());
                         output.accept(ModItems.SYLVANITE_AXE.get());
                         output.accept(ModItems.SYLVANITE_HOE.get());
