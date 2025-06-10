@@ -1,7 +1,6 @@
 package es.elite.forestenigma.datagen;
 
 import es.elite.forestenigma.ForestEnigma;
-import es.elite.forestenigma.datagen.loot.ModBlockLootTables;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;

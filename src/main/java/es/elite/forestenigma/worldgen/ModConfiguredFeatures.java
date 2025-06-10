@@ -40,15 +40,6 @@ public class ModConfiguredFeatures {
 
         register(context, SYLVANITE_ORE_KEY, Feature.ORE, new OreConfiguration(sylvaniteOres, 12));
 
-        /*register(context, MOSSY_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
-                BlockStateProvider.simple(ModBlocks.MOSSY_WOOD_LOG.get()),
-                new ForkingTrunkPlacer(4,4,3),
-
-                BlockStateProvider.simple(ModBlocks.MOSSY_TREE_LEAVES.get()),
-                new BlobFoliagePlacer(ConstantInt.of(3),ConstantInt.of(3),3),
-
-                new TwoLayersFeatureSize(1,0,2)).build());*/
-
         register(context, MOSSY_KEY, Feature.TREE, (new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(ModBlocks.MOSSY_WOOD_LOG.get()),
                 new DarkOakTrunkPlacer(8, 2, 3),
@@ -58,14 +49,6 @@ public class ModConfiguredFeatures {
 
                 new ThreeLayersFeatureSize(1, 1, 0, 1, 2, OptionalInt.empty()))).ignoreVines().build());
 
-        /*register(context, MOSSY_KEY, Feature.TREE, (new TreeConfiguration.TreeConfigurationBuilder(
-                BlockStateProvider.simple(ModBlocks.MOSSY_WOOD_LOG.get()),
-                new GiantTrunkPlacer(13, 2, 14),
-
-                BlockStateProvider.simple(ModBlocks.MOSSY_TREE_LEAVES.get()),
-                new MegaPineFoliagePlacer(ConstantInt.of(0), ConstantInt.of(0), UniformInt.of(13, 17)),
-
-                new TwoLayersFeatureSize(1, 1, 2))).build());*/
 
     }
 

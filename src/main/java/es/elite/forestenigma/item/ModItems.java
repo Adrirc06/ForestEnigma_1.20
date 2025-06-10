@@ -3,7 +3,6 @@ package es.elite.forestenigma.item;
 import es.elite.forestenigma.ForestEnigma;
 import es.elite.forestenigma.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
-import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

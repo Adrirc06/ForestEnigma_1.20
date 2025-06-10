@@ -85,7 +85,7 @@ public class ForestEnigma
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         /*
-         * Los items se añaden a las pestañas del creativo añadiendo una línea más en
+         * Los items ya no se añaden a las pestañas del creativo añadiendo una línea más en
          * el RegistryObject de la clase ModCreativeModeTabs
          */
     }

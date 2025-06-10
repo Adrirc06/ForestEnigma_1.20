@@ -27,8 +27,6 @@ public class ModSurfaceRules {
                                 SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR, GRASS_BLOCK)),
                         SurfaceRules.ifTrue(SurfaceRules.ON_CEILING, STONE)),
 
-
-                // Default to a grass and dirt surface
                 SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR, grassSurface)
         );
     }
