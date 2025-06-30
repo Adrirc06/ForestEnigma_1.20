@@ -2,5 +2,4 @@ Mod de Minecraft para la versión 1.20.1 hecho con forge, proyecto para aprender
 
 El mod añade nuevos bloques, mobs, un nuevo mineral y un nuevo bioma con una nueva aldea y nuevas estructuras.
 
-
-Continuación del mod tras la bajada de versión: https://github.com/Adrirc06/ModMinecraft-Elite.git
+Continuación del proyecto tras el cambio de versión: https://github.com/Adrirc06/ForestEnigma_1.21.git
